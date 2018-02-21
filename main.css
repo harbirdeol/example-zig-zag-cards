@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.zz-image,
+.zz-content {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+
+.zz-image {
+	background: #000;
+}
+
+.zz-content {
+	background: #900;
+}
+
+.zz-card:nth-child(even) .zz-image {
+	float: left;
+}
+
+.zz-card:nth-child(even) .zz-content {
+	float: right;
+}
